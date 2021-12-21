@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{836DB034-E0FA-F3E3-1802-4F3CAFC927EC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Climbing/DrawLine.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Climbing/Point.cs" Line="59" Column="29" />
+      <File FileName="Assets/Editor/EditorHandle.cs" Line="160" Column="1" />
+      <File FileName="Assets/Scripts/Climbing/DrawLine.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Climbing/HandlePointConnections.cs" Line="12" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3f5c27e6-a6d3-4239-8bdc-97ad3ed5afb8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

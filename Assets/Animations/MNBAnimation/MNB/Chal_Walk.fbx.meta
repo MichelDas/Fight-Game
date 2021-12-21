@@ -1,0 +1,2783 @@
+fileFormatVersion: 2
+guid: ec7c6736433b7124ab4bb35c7c5defc1
+timeCreated: 1430898769
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: challenger_beard
+    100004: challenger_Belt
+    100006: challenger_BeltBuckle
+    100008: challenger_boots
+    100010: challenger_dress
+    100012: challenger_eyes_refl
+    100014: challenger_eyes_refl 1
+    100016: challenger_eyes_refl2
+    100018: challenger_fingers
+    100020: challenger_FrontGorget
+    100022: challenger_FrontGorget_PntCnstLoc
+    100024: challenger_FrontKnife
+    100026: challenger_geo_grp
+    100028: challenger_Gorget_Ik
+    100030: challenger_Gorget_PvLoc
+    100032: challenger_hair
+    100034: challenger_hands
+    100036: challenger_Head
+    100038: challenger_head
+    100040: challenger_helm
+    100042: challenger_Helmet
+    100044: challenger_Hips
+    100046: challenger_hood
+    100048: challenger_Jaw
+    100050: challenger_knife
+    100052: challenger_LeftArm
+    100054: challenger_LeftArmorStrap01
+    100056: challenger_LeftArmorStrap02
+    100058: challenger_LeftEye
+    100060: challenger_LeftFoot
+    100062: challenger_LeftForeArm
+    100064: challenger_LeftForeArmRoll
+    100066: challenger_LeftHand
+    100068: challenger_LeftHandIndex1
+    100070: challenger_LeftHandIndex2
+    100072: challenger_LeftHandIndex3
+    100074: challenger_LeftHandIndex4
+    100076: challenger_LeftHandMiddle1
+    100078: challenger_LeftHandMiddle2
+    100080: challenger_LeftHandMiddle3
+    100082: challenger_LeftHandMiddle4
+    100084: challenger_LeftHandPinky1
+    100086: challenger_LeftHandPinky2
+    100088: challenger_LeftHandPinky3
+    100090: challenger_LeftHandPinky4
+    100092: challenger_LeftHandProp
+    100094: challenger_LeftHandRing1
+    100096: challenger_LeftHandRing2
+    100098: challenger_LeftHandRing3
+    100100: challenger_LeftHandRing4
+    100102: challenger_LeftHandThumb1
+    100104: challenger_LeftHandThumb2
+    100106: challenger_LeftHandThumb3
+    100108: challenger_LeftHandThumb4
+    100110: challenger_LeftHemetFlap
+    100112: challenger_LeftLeg
+    100114: challenger_LeftLowerEyelid
+    100116: challenger_LeftShoulder
+    100118: challenger_LeftShoulderpad
+    100120: challenger_LeftToeBase
+    100122: challenger_LeftUpLeg
+    100124: challenger_LeftUpperEyelid
+    100126: challenger_Neck
+    100128: challenger_Neck1
+    100130: challenger_pants
+    100132: challenger_RearGorget
+    100134: challenger_RearGorget_OriCnstLoc
+    100136: challenger_RearGorget_PntCnstLoc
+    100138: challenger_RearSword
+    100140: challenger_RearSword_Strap_01
+    100142: challenger_RearSword_Strap_02
+    100144: challenger_RearSword_Strap_03
+    100146: challenger_RearSword_Strap_04
+    100148: challenger_Reference
+    100150: challenger_RightArm
+    100152: challenger_RightArmorStrap01
+    100154: challenger_RightArmorStrap02
+    100156: challenger_RightEye
+    100158: challenger_RightFoot
+    100160: challenger_RightForeArm
+    100162: challenger_RightForeArmRoll
+    100164: challenger_RightHand
+    100166: challenger_RightHandIndex1
+    100168: challenger_RightHandIndex2
+    100170: challenger_RightHandIndex3
+    100172: challenger_RightHandIndex4
+    100174: challenger_RightHandMiddle1
+    100176: challenger_RightHandMiddle2
+    100178: challenger_RightHandMiddle3
+    100180: challenger_RightHandMiddle4
+    100182: challenger_RightHandPinky1
+    100184: challenger_RightHandPinky2
+    100186: challenger_RightHandPinky3
+    100188: challenger_RightHandPinky4
+    100190: challenger_RightHandProp
+    100192: challenger_RightHandRing1
+    100194: challenger_RightHandRing2
+    100196: challenger_RightHandRing3
+    100198: challenger_RightHandRing4
+    100200: challenger_RightHandThumb1
+    100202: challenger_RightHandThumb2
+    100204: challenger_RightHandThumb3
+    100206: challenger_RightHandThumb4
+    100208: challenger_RightHemetFlap
+    100210: challenger_RightLeg
+    100212: challenger_RightLowerEyelid
+    100214: challenger_RightShoulder
+    100216: challenger_RightShoulderpad
+    100218: challenger_RightToeBase
+    100220: challenger_RightUpLeg
+    100222: challenger_RightUpperEyelid
+    100224: challenger_sholders
+    100226: challenger_Spine
+    100228: challenger_Spine1
+    100230: challenger_Spine2
+    100232: challenger_Spine3
+    100234: challenger_sword
+    100236: challenger_sword_holder
+    100238: challenger_sword_holder2
+    100240: challenger_teeth
+    100242: challenger_tongue
+    100244: challenger_torso
+    100246: challenger_wound
+    100248: dress_frontLeft_jnt1
+    100250: dress_frontLeft_jnt2
+    100252: dress_frontLeft_jnt3
+    100254: dress_frontLeft_jnt4
+    100256: dress_frontLeft_jnt5
+    100258: dress_frontLeft_jnt6
+    100260: dress_frontRight_jnt1
+    100262: dress_frontRight_jnt2
+    100264: dress_frontRight_jnt3
+    100266: dress_frontRight_jnt4
+    100268: dress_frontRight_jnt5
+    100270: dress_frontRight_jnt6
+    100272: dress_rearLeft_jnt1
+    100274: dress_rearLeft_jnt2
+    100276: dress_rearLeft_jnt3
+    100278: dress_rearLeft_jnt4
+    100280: dress_rearLeft_jnt5
+    100282: dress_rearLeft_jnt6
+    100284: dress_rearRight_jnt1
+    100286: dress_rearRight_jnt2
+    100288: dress_rearRight_jnt3
+    100290: dress_rearRight_jnt4
+    100292: dress_rearRight_jnt5
+    100294: dress_rearRight_jnt6
+    100296: left_beard_jnt01
+    100298: left_beard_jnt02
+    100300: left_beard_jnt03
+    100302: left_beard_jnt04
+    100304: left_beard_jnt05
+    100306: left_beard_jnt06
+    100308: left_beard_jnt07
+    100310: left_beard_jnt08
+    100312: left_beard_jnt09
+    100314: left_beard_jnt10
+    100316: left_beard_jnt11
+    100318: left_beard_jnt12
+    100320: left_beard_jnt13
+    100322: left_eyeBrow_jnt01
+    100324: left_eyeBrow_jnt02
+    100326: left_eyeBrow_jnt03
+    100328: left_eyeBrow_jnt04
+    100330: left_lowerEyelash_jnt01
+    100332: left_lowerEyelash_jnt02
+    100334: left_lowerEyelash_jnt03
+    100336: left_upperEyelash_jnt01
+    100338: left_upperEyelash_jnt02
+    100340: left_upperEyelash_jnt03
+    100342: LeftArmorStrap_AimLoc
+    100344: LeftArmorStrap_AimNull
+    100346: right_beard_jnt01
+    100348: right_beard_jnt02
+    100350: right_beard_jnt03
+    100352: right_beard_jnt04
+    100354: right_beard_jnt05
+    100356: right_beard_jnt06
+    100358: right_beard_jnt07
+    100360: right_beard_jnt08
+    100362: right_beard_jnt09
+    100364: right_beard_jnt10
+    100366: right_beard_jnt11
+    100368: right_beard_jnt12
+    100370: right_beard_jnt13
+    100372: right_beard_jnt14
+    100374: right_beard_jnt15
+    100376: right_eyeBrow_jnt01
+    100378: right_eyeBrow_jnt02
+    100380: right_eyeBrow_jnt03
+    100382: right_eyeBrow_jnt04
+    100384: right_lowerEyelash_jnt01
+    100386: right_lowerEyelash_jnt02
+    100388: right_lowerEyelash_jnt03
+    100390: right_upperEyelash_jnt01
+    100392: right_upperEyelash_jnt02
+    100394: right_upperEyelash_jnt03
+    100396: RightArmorStrap_AimLoc
+    100398: RightArmorStrap_AimNull
+    100400: challenger_Ctrl:ChestEndEffector
+    100402: challenger_Ctrl:ChestOriginEffector
+    100404: challenger_Ctrl:Head
+    100406: challenger_Ctrl:HeadEffector
+    100408: challenger_Ctrl:Hips
+    100410: challenger_Ctrl:HipsEffector
+    100412: challenger_Ctrl:LeftAnkleEffector
+    100414: challenger_Ctrl:LeftArm
+    100416: challenger_Ctrl:LeftElbowEffector
+    100418: challenger_Ctrl:LeftFoot
+    100420: challenger_Ctrl:LeftFootEffector
+    100422: challenger_Ctrl:LeftForeArm
+    100424: challenger_Ctrl:LeftForeArmRoll
+    100426: challenger_Ctrl:LeftHand
+    100428: challenger_Ctrl:LeftHandIndex1
+    100430: challenger_Ctrl:LeftHandIndex2
+    100432: challenger_Ctrl:LeftHandIndex3
+    100434: challenger_Ctrl:LeftHandIndex4
+    100436: challenger_Ctrl:LeftHandIndexEffector
+    100438: challenger_Ctrl:LeftHandMiddle1
+    100440: challenger_Ctrl:LeftHandMiddle2
+    100442: challenger_Ctrl:LeftHandMiddle3
+    100444: challenger_Ctrl:LeftHandMiddle4
+    100446: challenger_Ctrl:LeftHandMiddleEffector
+    100448: challenger_Ctrl:LeftHandPinky1
+    100450: challenger_Ctrl:LeftHandPinky2
+    100452: challenger_Ctrl:LeftHandPinky3
+    100454: challenger_Ctrl:LeftHandPinky4
+    100456: challenger_Ctrl:LeftHandPinkyEffector
+    100458: challenger_Ctrl:LeftHandRing1
+    100460: challenger_Ctrl:LeftHandRing2
+    100462: challenger_Ctrl:LeftHandRing3
+    100464: challenger_Ctrl:LeftHandRing4
+    100466: challenger_Ctrl:LeftHandRingEffector
+    100468: challenger_Ctrl:LeftHandThumb1
+    100470: challenger_Ctrl:LeftHandThumb2
+    100472: challenger_Ctrl:LeftHandThumb3
+    100474: challenger_Ctrl:LeftHandThumb4
+    100476: challenger_Ctrl:LeftHandThumbEffector
+    100478: challenger_Ctrl:LeftHipEffector
+    100480: challenger_Ctrl:LeftKneeEffector
+    100482: challenger_Ctrl:LeftLeg
+    100484: challenger_Ctrl:LeftShoulder
+    100486: challenger_Ctrl:LeftShoulderEffector
+    100488: challenger_Ctrl:LeftToeBase
+    100490: challenger_Ctrl:LeftUpLeg
+    100492: challenger_Ctrl:LeftWristEffector
+    100494: challenger_Ctrl:Neck
+    100496: challenger_Ctrl:Neck1
+    100498: challenger_Ctrl:Reference
+    100500: challenger_Ctrl:RightAnkleEffector
+    100502: challenger_Ctrl:RightArm
+    100504: challenger_Ctrl:RightElbowEffector
+    100506: challenger_Ctrl:RightFoot
+    100508: challenger_Ctrl:RightFootEffector
+    100510: challenger_Ctrl:RightForeArm
+    100512: challenger_Ctrl:RightForeArmRoll
+    100514: challenger_Ctrl:RightHand
+    100516: challenger_Ctrl:RightHandIndex1
+    100518: challenger_Ctrl:RightHandIndex2
+    100520: challenger_Ctrl:RightHandIndex3
+    100522: challenger_Ctrl:RightHandIndex4
+    100524: challenger_Ctrl:RightHandIndexEffector
+    100526: challenger_Ctrl:RightHandMiddle1
+    100528: challenger_Ctrl:RightHandMiddle2
+    100530: challenger_Ctrl:RightHandMiddle3
+    100532: challenger_Ctrl:RightHandMiddle4
+    100534: challenger_Ctrl:RightHandMiddleEffector
+    100536: challenger_Ctrl:RightHandPinky1
+    100538: challenger_Ctrl:RightHandPinky2
+    100540: challenger_Ctrl:RightHandPinky3
+    100542: challenger_Ctrl:RightHandPinky4
+    100544: challenger_Ctrl:RightHandPinkyEffector
+    100546: challenger_Ctrl:RightHandRing1
+    100548: challenger_Ctrl:RightHandRing2
+    100550: challenger_Ctrl:RightHandRing3
+    100552: challenger_Ctrl:RightHandRing4
+    100554: challenger_Ctrl:RightHandRingEffector
+    100556: challenger_Ctrl:RightHandThumb1
+    100558: challenger_Ctrl:RightHandThumb2
+    100560: challenger_Ctrl:RightHandThumb3
+    100562: challenger_Ctrl:RightHandThumb4
+    100564: challenger_Ctrl:RightHandThumbEffector
+    100566: challenger_Ctrl:RightHipEffector
+    100568: challenger_Ctrl:RightKneeEffector
+    100570: challenger_Ctrl:RightLeg
+    100572: challenger_Ctrl:RightShoulder
+    100574: challenger_Ctrl:RightShoulderEffector
+    100576: challenger_Ctrl:RightToeBase
+    100578: challenger_Ctrl:RightUpLeg
+    100580: challenger_Ctrl:RightWristEffector
+    100582: challenger_Ctrl:Spine
+    100584: challenger_Ctrl:Spine1
+    100586: challenger_Ctrl:Spine2
+    100588: challenger_Ctrl:Spine3
+    100590: LeftWristEffectorAux1
+    400000: //RootNode
+    400002: challenger_beard
+    400004: challenger_Belt
+    400006: challenger_BeltBuckle
+    400008: challenger_boots
+    400010: challenger_dress
+    400012: challenger_eyes_refl
+    400014: challenger_eyes_refl 1
+    400016: challenger_eyes_refl2
+    400018: challenger_fingers
+    400020: challenger_FrontGorget
+    400022: challenger_FrontGorget_PntCnstLoc
+    400024: challenger_FrontKnife
+    400026: challenger_geo_grp
+    400028: challenger_Gorget_Ik
+    400030: challenger_Gorget_PvLoc
+    400032: challenger_hair
+    400034: challenger_hands
+    400036: challenger_Head
+    400038: challenger_head
+    400040: challenger_helm
+    400042: challenger_Helmet
+    400044: challenger_Hips
+    400046: challenger_hood
+    400048: challenger_Jaw
+    400050: challenger_knife
+    400052: challenger_LeftArm
+    400054: challenger_LeftArmorStrap01
+    400056: challenger_LeftArmorStrap02
+    400058: challenger_LeftEye
+    400060: challenger_LeftFoot
+    400062: challenger_LeftForeArm
+    400064: challenger_LeftForeArmRoll
+    400066: challenger_LeftHand
+    400068: challenger_LeftHandIndex1
+    400070: challenger_LeftHandIndex2
+    400072: challenger_LeftHandIndex3
+    400074: challenger_LeftHandIndex4
+    400076: challenger_LeftHandMiddle1
+    400078: challenger_LeftHandMiddle2
+    400080: challenger_LeftHandMiddle3
+    400082: challenger_LeftHandMiddle4
+    400084: challenger_LeftHandPinky1
+    400086: challenger_LeftHandPinky2
+    400088: challenger_LeftHandPinky3
+    400090: challenger_LeftHandPinky4
+    400092: challenger_LeftHandProp
+    400094: challenger_LeftHandRing1
+    400096: challenger_LeftHandRing2
+    400098: challenger_LeftHandRing3
+    400100: challenger_LeftHandRing4
+    400102: challenger_LeftHandThumb1
+    400104: challenger_LeftHandThumb2
+    400106: challenger_LeftHandThumb3
+    400108: challenger_LeftHandThumb4
+    400110: challenger_LeftHemetFlap
+    400112: challenger_LeftLeg
+    400114: challenger_LeftLowerEyelid
+    400116: challenger_LeftShoulder
+    400118: challenger_LeftShoulderpad
+    400120: challenger_LeftToeBase
+    400122: challenger_LeftUpLeg
+    400124: challenger_LeftUpperEyelid
+    400126: challenger_Neck
+    400128: challenger_Neck1
+    400130: challenger_pants
+    400132: challenger_RearGorget
+    400134: challenger_RearGorget_OriCnstLoc
+    400136: challenger_RearGorget_PntCnstLoc
+    400138: challenger_RearSword
+    400140: challenger_RearSword_Strap_01
+    400142: challenger_RearSword_Strap_02
+    400144: challenger_RearSword_Strap_03
+    400146: challenger_RearSword_Strap_04
+    400148: challenger_Reference
+    400150: challenger_RightArm
+    400152: challenger_RightArmorStrap01
+    400154: challenger_RightArmorStrap02
+    400156: challenger_RightEye
+    400158: challenger_RightFoot
+    400160: challenger_RightForeArm
+    400162: challenger_RightForeArmRoll
+    400164: challenger_RightHand
+    400166: challenger_RightHandIndex1
+    400168: challenger_RightHandIndex2
+    400170: challenger_RightHandIndex3
+    400172: challenger_RightHandIndex4
+    400174: challenger_RightHandMiddle1
+    400176: challenger_RightHandMiddle2
+    400178: challenger_RightHandMiddle3
+    400180: challenger_RightHandMiddle4
+    400182: challenger_RightHandPinky1
+    400184: challenger_RightHandPinky2
+    400186: challenger_RightHandPinky3
+    400188: challenger_RightHandPinky4
+    400190: challenger_RightHandProp
+    400192: challenger_RightHandRing1
+    400194: challenger_RightHandRing2
+    400196: challenger_RightHandRing3
+    400198: challenger_RightHandRing4
+    400200: challenger_RightHandThumb1
+    400202: challenger_RightHandThumb2
+    400204: challenger_RightHandThumb3
+    400206: challenger_RightHandThumb4
+    400208: challenger_RightHemetFlap
+    400210: challenger_RightLeg
+    400212: challenger_RightLowerEyelid
+    400214: challenger_RightShoulder
+    400216: challenger_RightShoulderpad
+    400218: challenger_RightToeBase
+    400220: challenger_RightUpLeg
+    400222: challenger_RightUpperEyelid
+    400224: challenger_sholders
+    400226: challenger_Spine
+    400228: challenger_Spine1
+    400230: challenger_Spine2
+    400232: challenger_Spine3
+    400234: challenger_sword
+    400236: challenger_sword_holder
+    400238: challenger_sword_holder2
+    400240: challenger_teeth
+    400242: challenger_tongue
+    400244: challenger_torso
+    400246: challenger_wound
+    400248: dress_frontLeft_jnt1
+    400250: dress_frontLeft_jnt2
+    400252: dress_frontLeft_jnt3
+    400254: dress_frontLeft_jnt4
+    400256: dress_frontLeft_jnt5
+    400258: dress_frontLeft_jnt6
+    400260: dress_frontRight_jnt1
+    400262: dress_frontRight_jnt2
+    400264: dress_frontRight_jnt3
+    400266: dress_frontRight_jnt4
+    400268: dress_frontRight_jnt5
+    400270: dress_frontRight_jnt6
+    400272: dress_rearLeft_jnt1
+    400274: dress_rearLeft_jnt2
+    400276: dress_rearLeft_jnt3
+    400278: dress_rearLeft_jnt4
+    400280: dress_rearLeft_jnt5
+    400282: dress_rearLeft_jnt6
+    400284: dress_rearRight_jnt1
+    400286: dress_rearRight_jnt2
+    400288: dress_rearRight_jnt3
+    400290: dress_rearRight_jnt4
+    400292: dress_rearRight_jnt5
+    400294: dress_rearRight_jnt6
+    400296: left_beard_jnt01
+    400298: left_beard_jnt02
+    400300: left_beard_jnt03
+    400302: left_beard_jnt04
+    400304: left_beard_jnt05
+    400306: left_beard_jnt06
+    400308: left_beard_jnt07
+    400310: left_beard_jnt08
+    400312: left_beard_jnt09
+    400314: left_beard_jnt10
+    400316: left_beard_jnt11
+    400318: left_beard_jnt12
+    400320: left_beard_jnt13
+    400322: left_eyeBrow_jnt01
+    400324: left_eyeBrow_jnt02
+    400326: left_eyeBrow_jnt03
+    400328: left_eyeBrow_jnt04
+    400330: left_lowerEyelash_jnt01
+    400332: left_lowerEyelash_jnt02
+    400334: left_lowerEyelash_jnt03
+    400336: left_upperEyelash_jnt01
+    400338: left_upperEyelash_jnt02
+    400340: left_upperEyelash_jnt03
+    400342: LeftArmorStrap_AimLoc
+    400344: LeftArmorStrap_AimNull
+    400346: right_beard_jnt01
+    400348: right_beard_jnt02
+    400350: right_beard_jnt03
+    400352: right_beard_jnt04
+    400354: right_beard_jnt05
+    400356: right_beard_jnt06
+    400358: right_beard_jnt07
+    400360: right_beard_jnt08
+    400362: right_beard_jnt09
+    400364: right_beard_jnt10
+    400366: right_beard_jnt11
+    400368: right_beard_jnt12
+    400370: right_beard_jnt13
+    400372: right_beard_jnt14
+    400374: right_beard_jnt15
+    400376: right_eyeBrow_jnt01
+    400378: right_eyeBrow_jnt02
+    400380: right_eyeBrow_jnt03
+    400382: right_eyeBrow_jnt04
+    400384: right_lowerEyelash_jnt01
+    400386: right_lowerEyelash_jnt02
+    400388: right_lowerEyelash_jnt03
+    400390: right_upperEyelash_jnt01
+    400392: right_upperEyelash_jnt02
+    400394: right_upperEyelash_jnt03
+    400396: RightArmorStrap_AimLoc
+    400398: RightArmorStrap_AimNull
+    400400: challenger_Ctrl:ChestEndEffector
+    400402: challenger_Ctrl:ChestOriginEffector
+    400404: challenger_Ctrl:Head
+    400406: challenger_Ctrl:HeadEffector
+    400408: challenger_Ctrl:Hips
+    400410: challenger_Ctrl:HipsEffector
+    400412: challenger_Ctrl:LeftAnkleEffector
+    400414: challenger_Ctrl:LeftArm
+    400416: challenger_Ctrl:LeftElbowEffector
+    400418: challenger_Ctrl:LeftFoot
+    400420: challenger_Ctrl:LeftFootEffector
+    400422: challenger_Ctrl:LeftForeArm
+    400424: challenger_Ctrl:LeftForeArmRoll
+    400426: challenger_Ctrl:LeftHand
+    400428: challenger_Ctrl:LeftHandIndex1
+    400430: challenger_Ctrl:LeftHandIndex2
+    400432: challenger_Ctrl:LeftHandIndex3
+    400434: challenger_Ctrl:LeftHandIndex4
+    400436: challenger_Ctrl:LeftHandIndexEffector
+    400438: challenger_Ctrl:LeftHandMiddle1
+    400440: challenger_Ctrl:LeftHandMiddle2
+    400442: challenger_Ctrl:LeftHandMiddle3
+    400444: challenger_Ctrl:LeftHandMiddle4
+    400446: challenger_Ctrl:LeftHandMiddleEffector
+    400448: challenger_Ctrl:LeftHandPinky1
+    400450: challenger_Ctrl:LeftHandPinky2
+    400452: challenger_Ctrl:LeftHandPinky3
+    400454: challenger_Ctrl:LeftHandPinky4
+    400456: challenger_Ctrl:LeftHandPinkyEffector
+    400458: challenger_Ctrl:LeftHandRing1
+    400460: challenger_Ctrl:LeftHandRing2
+    400462: challenger_Ctrl:LeftHandRing3
+    400464: challenger_Ctrl:LeftHandRing4
+    400466: challenger_Ctrl:LeftHandRingEffector
+    400468: challenger_Ctrl:LeftHandThumb1
+    400470: challenger_Ctrl:LeftHandThumb2
+    400472: challenger_Ctrl:LeftHandThumb3
+    400474: challenger_Ctrl:LeftHandThumb4
+    400476: challenger_Ctrl:LeftHandThumbEffector
+    400478: challenger_Ctrl:LeftHipEffector
+    400480: challenger_Ctrl:LeftKneeEffector
+    400482: challenger_Ctrl:LeftLeg
+    400484: challenger_Ctrl:LeftShoulder
+    400486: challenger_Ctrl:LeftShoulderEffector
+    400488: challenger_Ctrl:LeftToeBase
+    400490: challenger_Ctrl:LeftUpLeg
+    400492: challenger_Ctrl:LeftWristEffector
+    400494: challenger_Ctrl:Neck
+    400496: challenger_Ctrl:Neck1
+    400498: challenger_Ctrl:Reference
+    400500: challenger_Ctrl:RightAnkleEffector
+    400502: challenger_Ctrl:RightArm
+    400504: challenger_Ctrl:RightElbowEffector
+    400506: challenger_Ctrl:RightFoot
+    400508: challenger_Ctrl:RightFootEffector
+    400510: challenger_Ctrl:RightForeArm
+    400512: challenger_Ctrl:RightForeArmRoll
+    400514: challenger_Ctrl:RightHand
+    400516: challenger_Ctrl:RightHandIndex1
+    400518: challenger_Ctrl:RightHandIndex2
+    400520: challenger_Ctrl:RightHandIndex3
+    400522: challenger_Ctrl:RightHandIndex4
+    400524: challenger_Ctrl:RightHandIndexEffector
+    400526: challenger_Ctrl:RightHandMiddle1
+    400528: challenger_Ctrl:RightHandMiddle2
+    400530: challenger_Ctrl:RightHandMiddle3
+    400532: challenger_Ctrl:RightHandMiddle4
+    400534: challenger_Ctrl:RightHandMiddleEffector
+    400536: challenger_Ctrl:RightHandPinky1
+    400538: challenger_Ctrl:RightHandPinky2
+    400540: challenger_Ctrl:RightHandPinky3
+    400542: challenger_Ctrl:RightHandPinky4
+    400544: challenger_Ctrl:RightHandPinkyEffector
+    400546: challenger_Ctrl:RightHandRing1
+    400548: challenger_Ctrl:RightHandRing2
+    400550: challenger_Ctrl:RightHandRing3
+    400552: challenger_Ctrl:RightHandRing4
+    400554: challenger_Ctrl:RightHandRingEffector
+    400556: challenger_Ctrl:RightHandThumb1
+    400558: challenger_Ctrl:RightHandThumb2
+    400560: challenger_Ctrl:RightHandThumb3
+    400562: challenger_Ctrl:RightHandThumb4
+    400564: challenger_Ctrl:RightHandThumbEffector
+    400566: challenger_Ctrl:RightHipEffector
+    400568: challenger_Ctrl:RightKneeEffector
+    400570: challenger_Ctrl:RightLeg
+    400572: challenger_Ctrl:RightShoulder
+    400574: challenger_Ctrl:RightShoulderEffector
+    400576: challenger_Ctrl:RightToeBase
+    400578: challenger_Ctrl:RightUpLeg
+    400580: challenger_Ctrl:RightWristEffector
+    400582: challenger_Ctrl:Spine
+    400584: challenger_Ctrl:Spine1
+    400586: challenger_Ctrl:Spine2
+    400588: challenger_Ctrl:Spine3
+    400590: LeftWristEffectorAux1
+    2300000: challenger_sword
+    3300000: challenger_sword
+    4300000: challenger_boots
+    4300002: challenger_torso
+    4300004: challenger_helm
+    4300006: challenger_hood
+    4300008: challenger_head
+    4300010: challenger_pants
+    4300012: challenger_dress
+    4300014: challenger_sholders
+    4300016: challenger_hands
+    4300018: challenger_sword_holder
+    4300020: challenger_knife
+    4300022: challenger_sword_holder2
+    4300024: challenger_fingers
+    4300026: challenger_eyes_refl2
+    4300028: challenger_eyes_refl
+    4300030: challenger_eyes_refl 1
+    4300032: challenger_teeth
+    4300034: challenger_tongue
+    4300036: challenger_beard
+    4300038: challenger_hair
+    4300040: challenger_wound
+    4300042: challenger_sword
+    7400000: Chal_Walk
+    7400002: Idle
+    9500000: //RootNode
+    13700000: challenger_beard
+    13700002: challenger_boots
+    13700004: challenger_dress
+    13700006: challenger_eyes_refl
+    13700008: challenger_eyes_refl 1
+    13700010: challenger_eyes_refl2
+    13700012: challenger_fingers
+    13700014: challenger_hair
+    13700016: challenger_hands
+    13700018: challenger_head
+    13700020: challenger_helm
+    13700022: challenger_hood
+    13700024: challenger_knife
+    13700026: challenger_pants
+    13700028: challenger_sholders
+    13700030: challenger_sword_holder
+    13700032: challenger_sword_holder2
+    13700034: challenger_teeth
+    13700036: challenger_tongue
+    13700038: challenger_torso
+    13700040: challenger_wound
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 'MuscleClip ''Chal_Walk'' conversion warning: ''challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''Chal_Walk'' conversion warning: ''challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+      MuscleClip ''Chal_Walk'' conversion warning: ''challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1''
+      is between humanoid transforms and has rotation animation. This might lower
+      retargeting quality.
+
+
+'
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Chal_Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: challenger_geo_grp
+        weight: 1
+      - path: challenger_geo_grp/challenger_beard
+        weight: 1
+      - path: challenger_geo_grp/challenger_boots
+        weight: 1
+      - path: challenger_geo_grp/challenger_dress
+        weight: 1
+      - path: challenger_geo_grp/challenger_eyes_refl
+        weight: 1
+      - path: challenger_geo_grp/challenger_eyes_refl 1
+        weight: 1
+      - path: challenger_geo_grp/challenger_eyes_refl2
+        weight: 1
+      - path: challenger_geo_grp/challenger_fingers
+        weight: 1
+      - path: challenger_geo_grp/challenger_hair
+        weight: 1
+      - path: challenger_geo_grp/challenger_hands
+        weight: 1
+      - path: challenger_geo_grp/challenger_head
+        weight: 1
+      - path: challenger_geo_grp/challenger_helm
+        weight: 1
+      - path: challenger_geo_grp/challenger_hood
+        weight: 1
+      - path: challenger_geo_grp/challenger_knife
+        weight: 1
+      - path: challenger_geo_grp/challenger_pants
+        weight: 1
+      - path: challenger_geo_grp/challenger_sholders
+        weight: 1
+      - path: challenger_geo_grp/challenger_sword_holder
+        weight: 1
+      - path: challenger_geo_grp/challenger_sword_holder2
+        weight: 1
+      - path: challenger_geo_grp/challenger_teeth
+        weight: 1
+      - path: challenger_geo_grp/challenger_tongue
+        weight: 1
+      - path: challenger_geo_grp/challenger_torso
+        weight: 1
+      - path: challenger_Reference
+        weight: 1
+      - path: challenger_Reference/challenger_Hips
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_BeltBuckle
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_BeltBuckle/challenger_Belt
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_FrontKnife
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_LeftUpLeg
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_LeftUpLeg/challenger_LeftLeg
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_LeftUpLeg/challenger_LeftLeg/challenger_LeftFoot
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_LeftUpLeg/challenger_LeftLeg/challenger_LeftFoot/challenger_LeftToeBase
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RearSword_Strap_01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RearSword_Strap_01/challenger_RearSword_Strap_02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RearSword_Strap_01/challenger_RearSword_Strap_02/challenger_RearSword_Strap_03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RearSword_Strap_01/challenger_RearSword_Strap_02/challenger_RearSword_Strap_03/challenger_RearSword_Strap_04
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RightUpLeg
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RightUpLeg/challenger_RightLeg
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RightUpLeg/challenger_RightLeg/challenger_RightFoot
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RightUpLeg/challenger_RightLeg/challenger_RightFoot/challenger_RightToeBase
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_LeftArmorStrap01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_LeftArmorStrap01/challenger_LeftArmorStrap02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_RightArmorStrap01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_RightArmorStrap01/challenger_RightArmorStrap02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_RearGorget_OriCnstLoc
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/challenger_RearGorget
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/challenger_RearGorget/challenger_RearSword
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/LeftArmorStrap_AimNull
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/LeftArmorStrap_AimNull/LeftArmorStrap_AimLoc
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/RightArmorStrap_AimNull
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/RightArmorStrap_AimNull/RightArmorStrap_AimLoc
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Gorget_Ik
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Gorget_PvLoc
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_FrontGorget_PntCnstLoc
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandIndex1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandIndex1/challenger_LeftHandIndex2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandIndex1/challenger_LeftHandIndex2/challenger_LeftHandIndex3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandIndex1/challenger_LeftHandIndex2/challenger_LeftHandIndex3/challenger_LeftHandIndex4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandMiddle1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandMiddle1/challenger_LeftHandMiddle2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandMiddle1/challenger_LeftHandMiddle2/challenger_LeftHandMiddle3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandMiddle1/challenger_LeftHandMiddle2/challenger_LeftHandMiddle3/challenger_LeftHandMiddle4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandPinky1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandPinky1/challenger_LeftHandPinky2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandPinky1/challenger_LeftHandPinky2/challenger_LeftHandPinky3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandPinky1/challenger_LeftHandPinky2/challenger_LeftHandPinky3/challenger_LeftHandPinky4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandRing1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandRing1/challenger_LeftHandRing2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandRing1/challenger_LeftHandRing2/challenger_LeftHandRing3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandRing1/challenger_LeftHandRing2/challenger_LeftHandRing3/challenger_LeftHandRing4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandThumb1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandThumb1/challenger_LeftHandThumb2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandThumb1/challenger_LeftHandThumb2/challenger_LeftHandThumb3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandThumb1/challenger_LeftHandThumb2/challenger_LeftHandThumb3/challenger_LeftHandThumb4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftShoulderpad
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Helmet
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Helmet/challenger_LeftHemetFlap
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Helmet/challenger_RightHemetFlap
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt04
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt05
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt06
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt07
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt08
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt09
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt10
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt11
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt12
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt13
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt04
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt05
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt06
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt07
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt08
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt09
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt10
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt11
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt12
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt13
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt14
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt15
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_LeftEye
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_LeftLowerEyelid
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_LeftUpperEyelid
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_RightEye
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_RightLowerEyelid
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_RightUpperEyelid
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_eyeBrow_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_eyeBrow_jnt02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_eyeBrow_jnt03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_eyeBrow_jnt04
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_lowerEyelash_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_lowerEyelash_jnt02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_lowerEyelash_jnt03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_upperEyelash_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_upperEyelash_jnt02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_upperEyelash_jnt03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_eyeBrow_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_eyeBrow_jnt02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_eyeBrow_jnt03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_eyeBrow_jnt04
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_lowerEyelash_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_lowerEyelash_jnt02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_lowerEyelash_jnt03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_upperEyelash_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_upperEyelash_jnt02
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_upperEyelash_jnt03
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RearGorget_PntCnstLoc
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandIndex1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandIndex1/challenger_RightHandIndex2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandIndex1/challenger_RightHandIndex2/challenger_RightHandIndex3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandIndex1/challenger_RightHandIndex2/challenger_RightHandIndex3/challenger_RightHandIndex4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandMiddle1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandMiddle1/challenger_RightHandMiddle2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandMiddle1/challenger_RightHandMiddle2/challenger_RightHandMiddle3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandMiddle1/challenger_RightHandMiddle2/challenger_RightHandMiddle3/challenger_RightHandMiddle4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandPinky1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandPinky1/challenger_RightHandPinky2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandPinky1/challenger_RightHandPinky2/challenger_RightHandPinky3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandPinky1/challenger_RightHandPinky2/challenger_RightHandPinky3/challenger_RightHandPinky4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandRing1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandRing1/challenger_RightHandRing2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandRing1/challenger_RightHandRing2/challenger_RightHandRing3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandRing1/challenger_RightHandRing2/challenger_RightHandRing3/challenger_RightHandRing4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandThumb1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandThumb1/challenger_RightHandThumb2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandThumb1/challenger_RightHandThumb2/challenger_RightHandThumb3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandThumb1/challenger_RightHandThumb2/challenger_RightHandThumb3/challenger_RightHandThumb4
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightShoulderpad
+        weight: 1
+      - path: challenger_Reference/challenger_LeftHandProp
+        weight: 1
+      - path: challenger_Reference/challenger_RightHandProp
+        weight: 1
+      - path: challenger_sword
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 11
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: challenger_geo_grp
+        weight: 0
+      - path: challenger_geo_grp/challenger_beard
+        weight: 0
+      - path: challenger_geo_grp/challenger_boots
+        weight: 0
+      - path: challenger_geo_grp/challenger_dress
+        weight: 0
+      - path: challenger_geo_grp/challenger_eyes_refl
+        weight: 0
+      - path: challenger_geo_grp/challenger_eyes_refl 1
+        weight: 0
+      - path: challenger_geo_grp/challenger_eyes_refl2
+        weight: 0
+      - path: challenger_geo_grp/challenger_fingers
+        weight: 0
+      - path: challenger_geo_grp/challenger_hair
+        weight: 0
+      - path: challenger_geo_grp/challenger_hands
+        weight: 0
+      - path: challenger_geo_grp/challenger_head
+        weight: 0
+      - path: challenger_geo_grp/challenger_helm
+        weight: 0
+      - path: challenger_geo_grp/challenger_hood
+        weight: 0
+      - path: challenger_geo_grp/challenger_knife
+        weight: 0
+      - path: challenger_geo_grp/challenger_pants
+        weight: 0
+      - path: challenger_geo_grp/challenger_sholders
+        weight: 0
+      - path: challenger_geo_grp/challenger_sword_holder
+        weight: 0
+      - path: challenger_geo_grp/challenger_sword_holder2
+        weight: 0
+      - path: challenger_geo_grp/challenger_teeth
+        weight: 0
+      - path: challenger_geo_grp/challenger_tongue
+        weight: 0
+      - path: challenger_geo_grp/challenger_torso
+        weight: 0
+      - path: challenger_Reference
+        weight: 1
+      - path: challenger_Reference/challenger_Hips
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_BeltBuckle
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_BeltBuckle/challenger_Belt
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_FrontKnife
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_LeftUpLeg
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_LeftUpLeg/challenger_LeftLeg
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_LeftUpLeg/challenger_LeftLeg/challenger_LeftFoot
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_LeftUpLeg/challenger_LeftLeg/challenger_LeftFoot/challenger_LeftToeBase
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RearSword_Strap_01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_RearSword_Strap_01/challenger_RearSword_Strap_02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_RearSword_Strap_01/challenger_RearSword_Strap_02/challenger_RearSword_Strap_03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_RearSword_Strap_01/challenger_RearSword_Strap_02/challenger_RearSword_Strap_03/challenger_RearSword_Strap_04
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_RightUpLeg
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RightUpLeg/challenger_RightLeg
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RightUpLeg/challenger_RightLeg/challenger_RightFoot
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_RightUpLeg/challenger_RightLeg/challenger_RightFoot/challenger_RightToeBase
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_LeftArmorStrap01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_LeftArmorStrap01/challenger_LeftArmorStrap02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_RightArmorStrap01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_RightArmorStrap01/challenger_RightArmorStrap02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_RearGorget_OriCnstLoc
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/challenger_RearGorget
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/challenger_RearGorget/challenger_RearSword
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/LeftArmorStrap_AimNull
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/LeftArmorStrap_AimNull/LeftArmorStrap_AimLoc
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/RightArmorStrap_AimNull
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_FrontGorget/RightArmorStrap_AimNull/RightArmorStrap_AimLoc
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Gorget_Ik
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Gorget_PvLoc
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_FrontGorget_PntCnstLoc
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandIndex1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandIndex1/challenger_LeftHandIndex2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandIndex1/challenger_LeftHandIndex2/challenger_LeftHandIndex3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandIndex1/challenger_LeftHandIndex2/challenger_LeftHandIndex3/challenger_LeftHandIndex4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandMiddle1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandMiddle1/challenger_LeftHandMiddle2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandMiddle1/challenger_LeftHandMiddle2/challenger_LeftHandMiddle3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandMiddle1/challenger_LeftHandMiddle2/challenger_LeftHandMiddle3/challenger_LeftHandMiddle4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandPinky1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandPinky1/challenger_LeftHandPinky2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandPinky1/challenger_LeftHandPinky2/challenger_LeftHandPinky3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandPinky1/challenger_LeftHandPinky2/challenger_LeftHandPinky3/challenger_LeftHandPinky4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandRing1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandRing1/challenger_LeftHandRing2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandRing1/challenger_LeftHandRing2/challenger_LeftHandRing3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandRing1/challenger_LeftHandRing2/challenger_LeftHandRing3/challenger_LeftHandRing4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandThumb1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandThumb1/challenger_LeftHandThumb2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandThumb1/challenger_LeftHandThumb2/challenger_LeftHandThumb3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftForeArm/challenger_LeftForeArmRoll/challenger_LeftHand/challenger_LeftHandThumb1/challenger_LeftHandThumb2/challenger_LeftHandThumb3/challenger_LeftHandThumb4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_LeftShoulder/challenger_LeftArm/challenger_LeftShoulderpad
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Helmet
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Helmet/challenger_LeftHemetFlap
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Helmet/challenger_RightHemetFlap
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt04
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt05
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt06
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt07
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt08
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt09
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt10
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt11
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt12
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/left_beard_jnt13
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt04
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt05
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt06
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt07
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt08
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt09
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt10
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt11
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt12
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt13
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt14
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_Jaw/right_beard_jnt15
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_LeftEye
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_LeftLowerEyelid
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_LeftUpperEyelid
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_RightEye
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_RightLowerEyelid
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/challenger_RightUpperEyelid
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_eyeBrow_jnt01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_eyeBrow_jnt02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_eyeBrow_jnt03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_eyeBrow_jnt04
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_lowerEyelash_jnt01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_lowerEyelash_jnt02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_lowerEyelash_jnt03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_upperEyelash_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_upperEyelash_jnt02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/left_upperEyelash_jnt03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_eyeBrow_jnt01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_eyeBrow_jnt02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_eyeBrow_jnt03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_eyeBrow_jnt04
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_lowerEyelash_jnt01
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_lowerEyelash_jnt02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_lowerEyelash_jnt03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_upperEyelash_jnt01
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_upperEyelash_jnt02
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_Neck/challenger_Neck1/challenger_Head/right_upperEyelash_jnt03
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RearGorget_PntCnstLoc
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandIndex1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandIndex1/challenger_RightHandIndex2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandIndex1/challenger_RightHandIndex2/challenger_RightHandIndex3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandIndex1/challenger_RightHandIndex2/challenger_RightHandIndex3/challenger_RightHandIndex4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandMiddle1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandMiddle1/challenger_RightHandMiddle2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandMiddle1/challenger_RightHandMiddle2/challenger_RightHandMiddle3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandMiddle1/challenger_RightHandMiddle2/challenger_RightHandMiddle3/challenger_RightHandMiddle4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandPinky1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandPinky1/challenger_RightHandPinky2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandPinky1/challenger_RightHandPinky2/challenger_RightHandPinky3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandPinky1/challenger_RightHandPinky2/challenger_RightHandPinky3/challenger_RightHandPinky4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandRing1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandRing1/challenger_RightHandRing2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandRing1/challenger_RightHandRing2/challenger_RightHandRing3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandRing1/challenger_RightHandRing2/challenger_RightHandRing3/challenger_RightHandRing4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandThumb1
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandThumb1/challenger_RightHandThumb2
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandThumb1/challenger_RightHandThumb2/challenger_RightHandThumb3
+        weight: 1
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightForeArm/challenger_RightForeArmRoll/challenger_RightHand/challenger_RightHandThumb1/challenger_RightHandThumb2/challenger_RightHandThumb3/challenger_RightHandThumb4
+        weight: 0
+      - path: challenger_Reference/challenger_Hips/challenger_Spine/challenger_Spine1/challenger_Spine2/challenger_Spine3/challenger_RightShoulder/challenger_RightArm/challenger_RightShoulderpad
+        weight: 0
+      - path: challenger_Reference/challenger_LeftHandProp
+        weight: 0
+      - path: challenger_Reference/challenger_RightHandProp
+        weight: 0
+      - path: challenger_sword
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: challenger_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_upperEyelash_jnt01
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_upperEyelash_jnt01
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_Jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: challenger_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Chal_Walk(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_geo_grp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_beard
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_boots
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_dress
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_eyes_refl
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_eyes_refl 1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_eyes_refl2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_fingers
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_hair
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_hands
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_head
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_helm
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_hood
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_knife
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_pants
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_sholders
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_sword_holder
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_sword_holder2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_teeth
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_tongue
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_torso
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_Reference
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_LeftHandProp
+      position: {x: .329056621, y: 1.03374767, z: .310196429}
+      rotation: {x: .19370617, y: .0285995826, z: -.751211464, w: .630350173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_RightHandProp
+      position: {x: .469676197, y: 1.4252466, z: .33513996}
+      rotation: {x: .470058024, y: -.566070139, z: .309646457, w: .602270007}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_Hips
+      position: {x: -5.58793545e-09, y: 1.05451226, z: -.020549912}
+      rotation: {x: -.50842154, y: .491434157, z: .50842154, w: -.491434157}
+      scale: {x: 1, y: 1.00000095, z: .99999994}
+      transformModified: 1
+    - name: challenger_Spine
+      position: {x: -.0986731127, y: -8.13537753e-08, z: -2.51516887e-08}
+      rotation: {x: 0, y: 0, z: -.099318862, w: -.995055676}
+      scale: {x: .999999523, y: .999999523, z: .999999881}
+      transformModified: 1
+    - name: challenger_Spine1
+      position: {x: -.0907562822, y: .00187961815, z: 7.72742403e-09}
+      rotation: {x: -2.98023259e-08, y: 2.98023259e-08, z: .0358195193, w: .999358296}
+      scale: {x: .999999762, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: challenger_RightArmorStrap01
+      position: {x: -.0933893546, y: .167002574, z: -.150650993}
+      rotation: {x: .390592158, y: .266818345, z: .868463576, w: .148381054}
+      scale: {x: .999999583, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_RightArmorStrap02
+      position: {x: .0347414762, y: 1.3322676e-17, z: 0}
+      rotation: {x: -2.98023153e-08, y: -2.23517365e-08, z: -4.84287632e-08, w: 1}
+      scale: {x: .999999762, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_LeftArmorStrap01
+      position: {x: -.0933902785, y: .167002752, z: .150650695}
+      rotation: {x: -.266821623, y: .390580922, z: .148381293, w: -.868467569}
+      scale: {x: 1.00000012, y: 1, z: .999999523}
+      transformModified: 1
+    - name: challenger_LeftArmorStrap02
+      position: {x: -.12180952, y: -1.42108544e-16, z: 0}
+      rotation: {x: 2.98023188e-08, y: 2.98023188e-08, z: 0, w: 1}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: challenger_Spine2
+      position: {x: -.0970022082, y: -1.79237922e-08, z: -5.41822631e-09}
+      rotation: {x: -2.98023188e-08, y: -1.49011594e-08, z: .173417613, w: -.98484838}
+      scale: {x: 1.0000006, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_RearGorget_OriCnstLoc
+      position: {x: -.269317418, y: .0084446473, z: -.142030954}
+      rotation: {x: 1.01438072e-16, y: -1.58248138e-17, z: -.0986196324, w: .995125234}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_Spine3
+      position: {x: -.273545474, y: -1.59449733e-08, z: 2.89616668e-08}
+      rotation: {x: .527190745, y: -.471242905, z: -.527190745, w: -.471243024}
+      scale: {x: .999999881, y: .999999821, z: .999999404}
+      transformModified: 1
+    - name: challenger_Gorget_Ik
+      position: {x: .154980987, y: .00279262406, z: .00866965484}
+      rotation: {x: -3.58526044e-16, y: .707106829, z: 3.58526044e-16, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_Gorget_PvLoc
+      position: {x: -.0100827748, y: .125199124, z: .00866965484}
+      rotation: {x: 3.53883589e-16, y: -1.08247396e-16, z: 5.01311156e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_LeftShoulder
+      position: {x: -.0369680934, y: -.0878268108, z: -.00259390892}
+      rotation: {x: 1.16415357e-08, y: 6.47269118e-08, z: 7.7765435e-08, w: 1}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: challenger_FrontGorget_PntCnstLoc
+      position: {x: -.117822014, y: .0748472586, z: .0112635158}
+      rotation: {x: -3.54480536e-16, y: .707106829, z: 3.54480536e-16, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_LeftArm
+      position: {x: -.157466784, y: 1.11975824e-08, z: 2.42932607e-08}
+      rotation: {x: -.000498373702, y: -4.04040038e-05, z: .0203717537, w: .999792337}
+      scale: {x: 1.00000024, y: .99999994, z: .999999523}
+      transformModified: 1
+    - name: challenger_LeftShoulderpad
+      position: {x: .0520247035, y: .0310620088, z: -.0146314288}
+      rotation: {x: -.420321465, y: -.480649024, z: -.191391811, w: .74543649}
+      scale: {x: 1.00000012, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: challenger_LeftForeArm
+      position: {x: -.307410866, y: -3.00210019e-07, z: 2.99194625e-08}
+      rotation: {x: .74965328, y: .000307710463, z: -.0441655852, w: .660355389}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: challenger_LeftForeArmRoll
+      position: {x: -.118736304, y: -2.47048977e-08, z: -5.27666302e-08}
+      rotation: {x: .0875916556, y: -.00506555242, z: .0536149666, w: .994699717}
+      scale: {x: 1, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_LeftHand
+      position: {x: -.130706742, y: .0141394269, z: 9.73237256e-05}
+      rotation: {x: -.787484467, y: .0463745482, z: -.0210745558, w: .614225984}
+      scale: {x: 1, y: .999999583, z: .999999881}
+      transformModified: 1
+    - name: challenger_LeftHandThumb1
+      position: {x: -.00901021715, y: -.0114141461, z: .029026296}
+      rotation: {x: .370928854, y: .338441908, z: -.0888232663, w: .860220551}
+      scale: {x: 1.0000006, y: .99999994, z: .999999523}
+      transformModified: 1
+    - name: challenger_LeftHandThumb2
+      position: {x: -.0544601865, y: .000700055913, z: -1.34184868e-08}
+      rotation: {x: 2.30967942e-07, y: 7.20843502e-07, z: .0269690547, w: .999636352}
+      scale: {x: 1.00000024, y: .99999994, z: 1}
+      transformModified: 1
+    - name: challenger_LeftHandThumb3
+      position: {x: -.0368924104, y: -1.82536425e-07, z: 1.7841348e-08}
+      rotation: {x: 9.49948316e-08, y: -6.73345767e-07, z: .0369897, w: .999315619}
+      scale: {x: .999999702, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: challenger_LeftHandThumb4
+      position: {x: -.0358887985, y: 5.56159314e-08, z: -8.98714774e-08}
+      rotation: {x: 0, y: 1.34110408e-07, z: -8.94069387e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_LeftHandIndex1
+      position: {x: -.0957359672, y: -.00585814286, z: .0285689496}
+      rotation: {x: .0130113848, y: .00555303833, z: .0660627261, w: .997715235}
+      scale: {x: 1.00000024, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: challenger_LeftHandIndex2
+      position: {x: -.0476962402, y: -2.71826735e-07, z: 1.73360455e-08}
+      rotation: {x: 1.14762213e-06, y: -1.54273562e-06, z: .0302392542, w: .999542654}
+      scale: {x: 1.00000036, y: .999999702, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_LeftHandIndex3
+      position: {x: -.0256570484, y: -1.62089819e-07, z: 5.04762943e-09}
+      rotation: {x: -1.23493328e-05, y: 2.67624764e-05, z: .0388302803, w: .999245882}
+      scale: {x: 1.00000012, y: 1.0000006, z: .99999994}
+      transformModified: 1
+    - name: challenger_LeftHandIndex4
+      position: {x: -.0343449824, y: -7.33002352e-08, z: -3.81680138e-07}
+      rotation: {x: -1.04308093e-07, y: -.00013286616, z: -6.42612363e-08, w: 1}
+      scale: {x: .999999285, y: .999999762, z: 1}
+      transformModified: 1
+    - name: challenger_LeftHandMiddle1
+      position: {x: -.0999981984, y: .00163399323, z: -.000491601299}
+      rotation: {x: -.0508450158, y: -.00766739296, z: .0627047345, w: .996706665}
+      scale: {x: 1.00000036, y: .999999821, z: 1}
+      transformModified: 1
+    - name: challenger_LeftHandMiddle2
+      position: {x: -.0554805137, y: -3.17125526e-08, z: 3.00557258e-06}
+      rotation: {x: -1.39702997e-05, y: 2.13994576e-06, z: .0291549489, w: .9995749}
+      scale: {x: .999999642, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_LeftHandMiddle3
+      position: {x: -.0348379686, y: -7.35655519e-08, z: 1.718828e-06}
+      rotation: {x: -2.30490673e-06, y: 3.47150444e-06, z: .0389980488, w: .999239266}
+      scale: {x: 1.0000006, y: .999999285, z: .99999994}
+      transformModified: 1
+    - name: challenger_LeftHandMiddle4
+      position: {x: -.0346668102, y: 1.11303024e-07, z: 1.3029935e-06}
+      rotation: {x: -8.94069601e-08, y: 1.76951271e-08, z: -9.70903642e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: challenger_LeftHandRing1
+      position: {x: -.090349786, y: -.00383412954, z: -.0253167581}
+      rotation: {x: -.0873959884, y: -.0218221955, z: .0604914352, w: .994095802}
+      scale: {x: .999999821, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_LeftHandRing2
+      position: {x: -.0533813983, y: -4.29299263e-08, z: 7.36299128e-08}
+      rotation: {x: -4.82046801e-07, y: -2.44006543e-07, z: .0308590662, w: .999523759}
+      scale: {x: 1.00000036, y: .999999642, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_LeftHandRing3
+      position: {x: -.0276850127, y: 4.31762288e-08, z: 3.73588236e-08}
+      rotation: {x: -2.91620346e-08, y: 2.56113672e-08, z: .0357455537, w: .999360919}
+      scale: {x: 1.00000036, y: 1.00000048, z: .999999881}
+      transformModified: 1
+    - name: challenger_LeftHandRing4
+      position: {x: -.0343374573, y: 7.59569119e-08, z: 4.84647238e-08}
+      rotation: {x: -2.1606678e-07, y: 5.8673308e-08, z: -1.36205891e-08, w: 1}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_LeftHandPinky1
+      position: {x: -.0768894255, y: -.0133408736, z: -.0465970188}
+      rotation: {x: -.107344411, y: -.0400647782, z: .0540211834, w: .991944432}
+      scale: {x: .999999702, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_LeftHandPinky2
+      position: {x: -.0400372967, y: -4.61607463e-08, z: -4.88201586e-08}
+      rotation: {x: 9.43545828e-08, y: 4.93600787e-08, z: .0318663754, w: .999492168}
+      scale: {x: 1.0000006, y: .999999523, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_LeftHandPinky3
+      position: {x: -.0197200906, y: 2.94432908e-07, z: -2.04251549e-08}
+      rotation: {x: -1.42317717e-07, y: -1.28615636e-06, z: .0362180173, w: .999343991}
+      scale: {x: .999999881, y: 1.00000048, z: .999999881}
+      transformModified: 1
+    - name: challenger_LeftHandPinky4
+      position: {x: -.0273150876, y: 1.80316377e-07, z: 2.9402381e-08}
+      rotation: {x: 2.42143816e-08, y: -1.11758682e-08, z: 1.04773767e-09, w: 1}
+      scale: {x: .999999762, y: .99999994, z: 1}
+      transformModified: 1
+    - name: challenger_FrontGorget
+      position: {x: -.154790103, y: -.0129795838, z: .00866965484}
+      rotation: {x: -7.14520851e-08, y: .707106829, z: 7.14520922e-08, w: .707106829}
+      scale: {x: .999999762, y: .99999994, z: .999999702}
+      transformModified: 1
+    - name: LeftArmorStrap_AimNull
+      position: {x: -.149904117, y: -.1591793, z: .0558512062}
+      rotation: {x: .653887033, y: -.590495288, z: -.0320250131, w: -.471933872}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftArmorStrap_AimLoc
+      position: {x: 2.84217088e-16, y: 7.1054272e-17, z: 0}
+      rotation: {x: 2.77555756e-17, y: -1.38777878e-17, z: 1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightArmorStrap_AimNull
+      position: {x: -.149904072, y: -.159183189, z: .253728986}
+      rotation: {x: .590495288, y: .653887033, z: -.471933901, w: .0320250131}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightArmorStrap_AimLoc
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 1.53307474e-32, y: 0, z: 4.93038066e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_RearGorget
+      position: {x: -9.76996256e-17, y: 2.84217088e-16, z: .309771091}
+      rotation: {x: 8.65033272e-08, y: 1.19209261e-07, z: -1.9667441e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_RearSword
+      position: {x: .166950509, y: -.082100749, z: -.07707306}
+      rotation: {x: -.676986039, y: -.684017479, z: -.189854085, w: .194333225}
+      scale: {x: 1.00000012, y: .99999994, z: 1.00000048}
+      transformModified: 1
+    - name: challenger_RightShoulder
+      position: {x: .0369681008, y: -.0878228098, z: -.00259390054}
+      rotation: {x: 1, y: 1.12690039e-07, z: 5.12227771e-09, w: -1.16415473e-08}
+      scale: {x: .999999881, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_RearGorget_PntCnstLoc
+      position: {x: .11801289, y: -.0748431385, z: -.0112635586}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_RightArm
+      position: {x: .157466948, y: 1.7311097e-09, z: -1.84727078e-08}
+      rotation: {x: -.000498344249, y: -4.0015686e-05, z: .0203698855, w: .999792397}
+      scale: {x: 1.00000012, y: .999999881, z: .999999285}
+      transformModified: 1
+    - name: challenger_RightShoulderpad
+      position: {x: -.0477661826, y: -.0355946198, z: -3.70671422e-08}
+      rotation: {x: -.0777585208, y: -.151700437, z: -.197038502, w: .965461791}
+      scale: {x: 1, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_RightForeArm
+      position: {x: .30741331, y: 1.42177248e-06, z: 1.7683432e-07}
+      rotation: {x: -.749653757, y: -.000306994625, z: .0441663712, w: -.660354793}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: challenger_RightForeArmRoll
+      position: {x: .118736878, y: 9.44275698e-08, z: -1.1346458e-06}
+      rotation: {x: .0875915363, y: -.00506551424, z: .0536149405, w: .994699717}
+      scale: {x: .999999583, y: .999999881, z: 1}
+      transformModified: 1
+    - name: challenger_RightHand
+      position: {x: .130706683, y: -.014139533, z: -9.76982628e-05}
+      rotation: {x: .787484348, y: -.0463744327, z: .0210745335, w: -.614225984}
+      scale: {x: 1, y: 1.00000048, z: .99999994}
+      transformModified: 1
+    - name: challenger_RightHandThumb1
+      position: {x: .00901059713, y: .0114132445, z: -.0290261172}
+      rotation: {x: .370930046, y: .338431865, z: -.0888128355, w: .860225022}
+      scale: {x: 1.00000024, y: .999999762, z: .999999166}
+      transformModified: 1
+    - name: challenger_RightHandThumb2
+      position: {x: .0544573478, y: -.000702794234, z: -7.3584971e-07}
+      rotation: {x: -1.34110465e-07, y: 1.11162672e-05, z: .0269034244, w: .999638081}
+      scale: {x: 1.00000048, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: challenger_RightHandThumb3
+      position: {x: .0368992202, y: 2.90632761e-06, z: 5.02612409e-07}
+      rotation: {x: 5.9604622e-07, y: -4.05311448e-06, z: .0370358005, w: .999313951}
+      scale: {x: .999999821, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: challenger_RightHandThumb4
+      position: {x: .0358855277, y: -5.21042296e-07, z: -3.01577749e-08}
+      rotation: {x: -5.96046235e-08, y: 1.49011555e-07, z: 8.94069387e-08, w: 1}
+      scale: {x: .99999994, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: challenger_RightHandIndex1
+      position: {x: .0957354978, y: .00585708907, z: -.0285693351}
+      rotation: {x: .0130121335, y: .00556035573, z: .0660449788, w: .997716308}
+      scale: {x: 1.00000048, y: .999999106, z: .999999881}
+      transformModified: 1
+    - name: challenger_RightHandIndex2
+      position: {x: .0476966985, y: 5.26286499e-07, z: 7.64112372e-07}
+      rotation: {x: -3.50480082e-06, y: 7.56420422e-06, z: -.0302441362, w: -.999542534}
+      scale: {x: .999999464, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: challenger_RightHandIndex3
+      position: {x: .0256574191, y: 1.53271898e-07, z: 7.32125542e-08}
+      rotation: {x: -1.28482916e-05, y: 2.11801362e-05, z: .038830664, w: .999245822}
+      scale: {x: 1.00000024, y: .999999642, z: .999999821}
+      transformModified: 1
+    - name: challenger_RightHandIndex4
+      position: {x: .03434439, y: -6.31223571e-08, z: -1.51039799e-07}
+      rotation: {x: 1.34110422e-07, y: -.000132918329, z: 1.49011584e-07, w: 1}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_RightHandMiddle1
+      position: {x: .0999961644, y: -.00163675589, z: .000490889186}
+      rotation: {x: -.0508454144, y: -.00766215846, z: .0626853928, w: .996707916}
+      scale: {x: 1.00000024, y: .999999166, z: .999999464}
+      transformModified: 1
+    - name: challenger_RightHandMiddle2
+      position: {x: .055483669, y: 4.45527206e-07, z: -2.72687294e-06}
+      rotation: {x: 1.03326702e-05, y: -8.84942256e-06, z: -.0291540492, w: -.999574959}
+      scale: {x: .999999702, y: 1.0000006, z: 1.00000036}
+      transformModified: 1
+    - name: challenger_RightHandMiddle3
+      position: {x: .034838479, y: 3.70505859e-07, z: -1.02140802e-06}
+      rotation: {x: -2.30153091e-06, y: -7.76350498e-06, z: .0390021428, w: .999239206}
+      scale: {x: 1, y: .999999523, z: .999999821}
+      transformModified: 1
+    - name: challenger_RightHandMiddle4
+      position: {x: .0346657597, y: -2.15763038e-07, z: -1.92795233e-06}
+      rotation: {x: 1.49011559e-08, y: -1.86264444e-08, z: -5.96046235e-08, w: 1}
+      scale: {x: 1.00000012, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: challenger_RightHandRing1
+      position: {x: .0903480127, y: .00383095071, z: .0253161825}
+      rotation: {x: -.0873962268, y: -.0218133889, z: .0604626201, w: .994097769}
+      scale: {x: 1.00000012, y: .999999225, z: 1}
+      transformModified: 1
+    - name: challenger_RightHandRing2
+      position: {x: .0533840172, y: 1.3722879e-06, z: 4.18394876e-07}
+      rotation: {x: -8.09988592e-07, y: 3.21492507e-06, z: -.0308772512, w: -.999523222}
+      scale: {x: .999999583, y: 1.00000036, z: .99999994}
+      transformModified: 1
+    - name: challenger_RightHandRing3
+      position: {x: .0276848581, y: -4.95542963e-07, z: -2.16751417e-08}
+      rotation: {x: 4.73635822e-07, y: 2.83587769e-06, z: .0357407704, w: .999361098}
+      scale: {x: 1.00000024, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: challenger_RightHandRing4
+      position: {x: .0343381464, y: -2.14204675e-07, z: 2.21383374e-07}
+      rotation: {x: 7.45057882e-09, y: -3.35276056e-08, z: 0, w: 1}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: challenger_RightHandPinky1
+      position: {x: .076891318, y: .013342672, z: .0465975888}
+      rotation: {x: -.107342392, y: -.0400633812, z: .0540241189, w: .991944551}
+      scale: {x: 1.00000048, y: .999999583, z: 1.00000036}
+      transformModified: 1
+    - name: challenger_RightHandPinky2
+      position: {x: .0400340743, y: -1.34966172e-06, z: -3.29247456e-07}
+      rotation: {x: 2.64146365e-07, y: -6.30877912e-06, z: -.0318442322, w: -.999492884}
+      scale: {x: .999999523, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_RightHandPinky3
+      position: {x: .0197209381, y: -1.53769378e-07, z: 1.2741971e-07}
+      rotation: {x: 3.50410119e-08, y: -4.66872007e-06, z: .0362249911, w: .999343693}
+      scale: {x: .99999994, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_RightHandPinky4
+      position: {x: .0273140781, y: -4.58290401e-07, z: -1.77055725e-07}
+      rotation: {x: -4.28408349e-08, y: 4.74974442e-08, z: 2.98023188e-08, w: 1}
+      scale: {x: .999999881, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_Neck
+      position: {x: 1.75345765e-08, y: -.000250022509, z: -6.29233412e-08}
+      rotation: {x: -.585991681, y: .395744622, z: .585991561, w: -.395744711}
+      scale: {x: .999999583, y: 1.00000024, z: .999999821}
+      transformModified: 1
+    - name: challenger_Neck1
+      position: {x: -.0527468845, y: 1.20636798e-07, z: -8.37695513e-09}
+      rotation: {x: -8.94069672e-08, y: -8.94069672e-08, z: .154695481, w: .987962246}
+      scale: {x: 1.00000095, y: .999999583, z: 1.00000036}
+      transformModified: 1
+    - name: challenger_Head
+      position: {x: -.0519973226, y: 3.49587559e-08, z: -1.81191595e-08}
+      rotation: {x: .73216337, y: -.681129158, z: 7.5207458e-09, w: -1.96892902e-08}
+      scale: {x: 1.00000024, y: .999999523, z: 1}
+      transformModified: 1
+    - name: challenger_Helmet
+      position: {x: -.0344594531, y: .0589195304, z: -1.61853331e-09}
+      rotation: {x: .00750434771, y: -.184452221, z: -.0139754899, w: -.982713521}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_LeftHemetFlap
+      position: {x: -.035246104, y: -.0227257907, z: -.0768724233}
+      rotation: {x: 1.65484593e-07, y: -.60876143, z: 1.59806106e-07, w: .793353379}
+      scale: {x: .999999762, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: challenger_RightHemetFlap
+      position: {x: -.0352461301, y: -.0227226187, z: .0768724009}
+      rotation: {x: .60876143, y: 1.09889854e-07, z: .793353379, w: -2.14273598e-07}
+      scale: {x: .999999702, y: .999999642, z: .999999821}
+      transformModified: 1
+    - name: challenger_RightEye
+      position: {x: -.101105258, y: .0439919047, z: .0308817662}
+      rotation: {x: -.058085911, y: -.72688365, z: -.0545092225, w: .68212533}
+      scale: {x: .999999642, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: challenger_LeftEye
+      position: {x: -.101105258, y: .0439146161, z: -.0309443101}
+      rotation: {x: -5.86104605e-08, y: -.707106829, z: -4.21468442e-08, w: .707106829}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: left_eyeBrow_jnt04
+      position: {x: -.106813788, y: .0470238589, z: -.05128159}
+      rotation: {x: .50107044, y: .560995579, z: -.00725509226, w: .65890801}
+      scale: {x: 1.00000012, y: 1, z: 1.00000036}
+      transformModified: 1
+    - name: left_eyeBrow_jnt03
+      position: {x: -.117957138, y: .0576317348, z: -.0456649922}
+      rotation: {x: .242646053, y: -.31963414, z: -.733247221, w: .548912942}
+      scale: {x: 1, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: left_eyeBrow_jnt02
+      position: {x: -.127777994, y: .0586603954, z: -.0288471207}
+      rotation: {x: -.258021146, y: -.0106761344, z: .658971906, w: -.706446886}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: left_eyeBrow_jnt01
+      position: {x: -.12998724, y: .0506289192, z: -.0114064198}
+      rotation: {x: -.105092272, y: -.27421993, z: -.525078773, w: .798781097}
+      scale: {x: .99999994, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: right_eyeBrow_jnt04
+      position: {x: -.127709374, y: .0586744957, z: .0288243387}
+      rotation: {x: -.382952601, y: .563711166, z: .593029439, w: .428827584}
+      scale: {x: .999999881, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: right_eyeBrow_jnt03
+      position: {x: -.130045637, y: .0516430363, z: .0116849579}
+      rotation: {x: -.504837453, y: -.790960014, z: -.128785372, w: .320836127}
+      scale: {x: 1.00000012, y: 1, z: .999999821}
+      transformModified: 1
+    - name: right_eyeBrow_jnt02
+      position: {x: -.120821446, y: .0562907718, z: .0411249921}
+      rotation: {x: -.44141984, y: -.709868312, z: .509119034, w: -.205020487}
+      scale: {x: 1.00000024, y: .99999994, z: 1}
+      transformModified: 1
+    - name: right_eyeBrow_jnt01
+      position: {x: -.111564316, y: .0503872968, z: .0498264059}
+      rotation: {x: -.0952803493, y: .56997484, z: -.576316893, w: .577848732}
+      scale: {x: .999999881, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: challenger_RightUpperEyelid
+      position: {x: -.101105258, y: .0439919047, z: .0308817662}
+      rotation: {x: -.02245312, y: -.711163282, z: -.0227364991, w: .70230031}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: challenger_RightLowerEyelid
+      position: {x: -.101105258, y: .0439919047, z: .0308817662}
+      rotation: {x: -.0168411024, y: -.711322308, z: -.0170536265, w: .702457309}
+      scale: {x: .99999994, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: challenger_LeftUpperEyelid
+      position: {x: -.101105258, y: .0439146161, z: -.0309443101}
+      rotation: {x: -4.42048034e-08, y: -.707106829, z: -5.65525156e-08, w: .707106829}
+      scale: {x: .999999762, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: challenger_LeftLowerEyelid
+      position: {x: -.101105258, y: .0439146161, z: -.0309443101}
+      rotation: {x: -4.83207074e-08, y: -.707106829, z: -5.24366115e-08, w: .707106829}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_Jaw
+      position: {x: -.039924074, y: -.00718756858, z: -1.40746492e-09}
+      rotation: {x: -5.82076209e-09, y: -2.45326814e-16, z: -1.74577952e-08, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: left_beard_jnt13
+      position: {x: -.0916243568, y: -.0103181824, z: -.000187605125}
+      rotation: {x: .784683764, y: .619542956, z: -.0133564128, w: .0161086619}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: left_beard_jnt12
+      position: {x: -.0457512625, y: -.0306960903, z: -.0480940603}
+      rotation: {x: -.268205881, y: -.369861364, z: .686574459, w: .565582752}
+      scale: {x: .999999762, y: .999999642, z: 1}
+      transformModified: 1
+    - name: left_beard_jnt11
+      position: {x: -.0450349785, y: -.0519361757, z: -.0379677936}
+      rotation: {x: .413933843, y: .0956475064, z: -.10558252, w: .899089932}
+      scale: {x: .999999881, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: left_beard_jnt10
+      position: {x: -.0178327635, y: -.029176604, z: -.0592486858}
+      rotation: {x: .214811131, y: .749201834, z: .549667537, w: .30069682}
+      scale: {x: .999999762, y: 1, z: 1}
+      transformModified: 1
+    - name: left_beard_jnt09
+      position: {x: -.0322937071, y: -.0149580715, z: -.0592001416}
+      rotation: {x: .474055946, y: -.187975973, z: -.447140962, w: .734847605}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: left_beard_jnt08
+      position: {x: -.0463454798, y: -.00315870019, z: -.0536209606}
+      rotation: {x: .450744897, y: .757906675, z: .438796937, w: .172811225}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: left_beard_jnt07
+      position: {x: -.0610015057, y: -.00714687398, z: -.0432357974}
+      rotation: {x: .0393435732, y: -.601320386, z: .755393147, w: .257385284}
+      scale: {x: .999999762, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: left_beard_jnt06
+      position: {x: -.0654451773, y: -.0362175591, z: -.0334759317}
+      rotation: {x: .100013427, y: -.441957533, z: -.618680894, w: .641798139}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: left_beard_jnt05
+      position: {x: -.0779891983, y: -.0423987769, z: -.0193804279}
+      rotation: {x: .294024915, y: -.0719108954, z: -.605266571, w: .736227334}
+      scale: {x: .999999881, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: left_beard_jnt04
+      position: {x: -.0828228965, y: -.0311111733, z: -.0170487929}
+      rotation: {x: .287905991, y: -.188038543, z: -.566595793, w: .748813033}
+      scale: {x: .999999881, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: left_beard_jnt03
+      position: {x: -.0725215673, y: -.0160502195, z: -.0327639543}
+      rotation: {x: .663341343, y: .426349223, z: -.157306716, w: .594524324}
+      scale: {x: .999999881, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: left_beard_jnt02
+      position: {x: -.0778664798, y: -.00126724166, z: -.0242770053}
+      rotation: {x: -.445215106, y: .121290252, z: .450729758, w: .764143229}
+      scale: {x: .999999762, y: 1, z: .99999994}
+      transformModified: 1
+    - name: left_beard_jnt01
+      position: {x: -.0838993341, y: .000509794743, z: -.0145585425}
+      rotation: {x: -.242832884, y: .0739549249, z: .757526517, w: -.601428747}
+      scale: {x: .999999821, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: right_beard_jnt15
+      position: {x: -.0444206037, y: -.0520882644, z: .0397345759}
+      rotation: {x: -.272596478, y: -.792394221, z: .318457931, w: .443155974}
+      scale: {x: .999999821, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: right_beard_jnt14
+      position: {x: -.0321641862, y: -.0148854181, z: .0593441539}
+      rotation: {x: -.455025703, y: -.723395824, z: .48319298, w: .190196395}
+      scale: {x: .999999762, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: right_beard_jnt13
+      position: {x: -.0504490845, y: -.00525162742, z: .0492557846}
+      rotation: {x: -.406649441, y: .187167406, z: -.48844406, w: .749017417}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: right_beard_jnt12
+      position: {x: -.0597404577, y: -.0100710373, z: .0429399051}
+      rotation: {x: -.491372943, y: -.688676357, z: .469718516, w: .252273977}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: right_beard_jnt11
+      position: {x: -.0516127497, y: -.0318239257, z: .0452697165}
+      rotation: {x: -.361980438, y: .338491917, z: -.536499798, w: .683053076}
+      scale: {x: .999999881, y: 1, z: .999999821}
+      transformModified: 1
+    - name: right_beard_jnt10
+      position: {x: -.0134988707, y: -.0292422771, z: .0631878227}
+      rotation: {x: -.53798455, y: .306326419, z: -.221586287, w: .753416479}
+      scale: {x: .999999762, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: right_beard_jnt09
+      position: {x: -.0857817382, y: -.0457381234, z: .00058150664}
+      rotation: {x: .610325217, y: -.791727185, z: -.0148045104, w: -.0212596469}
+      scale: {x: 1, y: 1, z: .999999702}
+      transformModified: 1
+    - name: right_beard_jnt08
+      position: {x: -.0780264959, y: -.042391628, z: .0186533332}
+      rotation: {x: -.619170487, y: -.702899098, z: .344420284, w: .0627333522}
+      scale: {x: .999999881, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: right_beard_jnt07
+      position: {x: -.0652455539, y: -.0365828536, z: .0328538902}
+      rotation: {x: .379317671, y: .782119513, z: -.467137635, w: .161832049}
+      scale: {x: 1.00000012, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: right_beard_jnt06
+      position: {x: -.0883097425, y: -.0327794068, z: -4.64212462e-05}
+      rotation: {x: -.946452856, y: .322807163, z: .00447201682, w: .0015661011}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: right_beard_jnt05
+      position: {x: -.0834920108, y: -.0302675627, z: .0169035513}
+      rotation: {x: .756212771, y: -.456378251, z: .0318072401, w: .467813343}
+      scale: {x: .999999881, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: right_beard_jnt04
+      position: {x: -.0733474344, y: -.0169612765, z: .0313981399}
+      rotation: {x: -.0325398408, y: .430656075, z: -.654853046, w: .6201967}
+      scale: {x: 1.00000024, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: right_beard_jnt03
+      position: {x: -.0776408836, y: -.00579250092, z: .0256420542}
+      rotation: {x: .166465864, y: -.276239783, z: .739755929, w: -.590543687}
+      scale: {x: 1, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: right_beard_jnt02
+      position: {x: -.0838990062, y: .0012309351, z: .01428892}
+      rotation: {x: -.756037056, y: -.590812087, z: .264376909, w: .0972308367}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: right_beard_jnt01
+      position: {x: -.0912706852, y: -.004434512, z: .000315222773}
+      rotation: {x: .715939939, y: -.697897851, z: .00560331298, w: .0183639396}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: right_upperEyelash_jnt01
+      position: {x: -.111459576, y: .0436904579, z: .04194583}
+      rotation: {x: .483466029, y: -.123745732, z: .805104792, w: .320552379}
+      scale: {x: .99999994, y: 1, z: .999999881}
+      transformModified: 1
+    - name: right_upperEyelash_jnt02
+      position: {x: -.116458535, y: .046740789, z: .0325691216}
+      rotation: {x: .0625981465, y: -.0198922213, z: .880614817, w: .46925813}
+      scale: {x: 1.00000036, y: 1, z: .999999762}
+      transformModified: 1
+    - name: right_upperEyelash_jnt03
+      position: {x: -.112771995, y: .0425678492, z: .0207349006}
+      rotation: {x: -.346108943, y: .181049004, z: .800287545, w: .454939395}
+      scale: {x: .999999583, y: .999999642, z: .999999821}
+      transformModified: 1
+    - name: right_lowerEyelash_jnt01
+      position: {x: -.111206859, y: .0414838605, z: .0417261384}
+      rotation: {x: -.7509588, y: -.46625945, z: .463223398, w: -.0639315844}
+      scale: {x: .999999464, y: .999999285, z: .999999762}
+      transformModified: 1
+    - name: right_lowerEyelash_jnt02
+      position: {x: -.115502819, y: .0388649404, z: .0327529311}
+      rotation: {x: -.8783198, y: -.476297259, z: .0387703106, w: .0138619458}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: right_lowerEyelash_jnt03
+      position: {x: -.11337918, y: .0388760529, z: .0229118261}
+      rotation: {x: -.0951546654, y: -.226679876, z: .371288866, w: .895380616}
+      scale: {x: 1.00000048, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: left_upperEyelash_jnt01
+      position: {x: -.111529313, y: .0436930694, z: -.0418748148}
+      rotation: {x: .805615187, y: -.319990814, z: .482725084, w: .124766044}
+      scale: {x: 1.00000012, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: left_upperEyelash_jnt02
+      position: {x: -.116473272, y: .0467421934, z: -.0324254967}
+      rotation: {x: .880203843, y: -.470005453, z: .0629606396, w: .019287793}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: left_upperEyelash_jnt03
+      position: {x: -.112715691, y: .0425714254, z: -.0206686985}
+      rotation: {x: -.799095571, y: .457056552, z: .346405864, w: .180412352}
+      scale: {x: 1.00000048, y: 1.00000072, z: 1.00000024}
+      transformModified: 1
+    - name: left_lowerEyelash_jnt01
+      position: {x: -.111277647, y: .041483514, z: -.0416610986}
+      rotation: {x: -.462960601, y: -.0643839538, z: .751100242, w: -.466230214}
+      scale: {x: 1.00000012, y: 1, z: .999999702}
+      transformModified: 1
+    - name: left_lowerEyelash_jnt02
+      position: {x: -.115512319, y: .0388640091, z: -.0326424129}
+      rotation: {x: -.0407176986, y: .015834922, z: .874686003, w: -.482717127}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: left_lowerEyelash_jnt03
+      position: {x: -.113339372, y: .0388871431, z: -.022831874}
+      rotation: {x: .359199733, y: -.900659084, z: -.0906655267, w: .227087095}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_LeftUpLeg
+      position: {x: .0638211742, y: .0386708155, z: .0891001076}
+      rotation: {x: -.00129020214, y: -.996613204, z: -.0029001832, w: -.0821716636}
+      scale: {x: 1.00000024, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: challenger_LeftLeg
+      position: {x: -.417932838, y: -1.34926026e-08, z: 6.58824604e-08}
+      rotation: {x: .0017296226, y: .0387073942, z: .0080468962, w: .999216735}
+      scale: {x: .999999642, y: .999999762, z: .999999702}
+      transformModified: 1
+    - name: challenger_LeftFoot
+      position: {x: -.482848912, y: -1.58370668e-07, z: -1.00055964e-08}
+      rotation: {x: -.119776711, y: -.0222525652, z: -.555838406, w: .822315037}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: challenger_LeftToeBase
+      position: {x: -.165621012, y: 3.56351337e-10, z: 3.56746703e-08}
+      rotation: {x: -.00727235992, y: -.0167718958, z: -.175877571, w: .98424226}
+      scale: {x: .99999994, y: 1, z: .999999821}
+      transformModified: 1
+    - name: challenger_RightUpLeg
+      position: {x: .0638206899, y: .0386708304, z: -.0891001225}
+      rotation: {x: .996613145, y: -.0013256073, z: -.0821715444, w: .00290165842}
+      scale: {x: 1, y: .999999881, z: .999999702}
+      transformModified: 1
+    - name: challenger_RightLeg
+      position: {x: .417933255, y: -4.50050557e-08, z: 3.56502198e-07}
+      rotation: {x: .00172710419, y: .0387075096, z: .00798095763, w: .999217212}
+      scale: {x: 1.00000012, y: .999999702, z: .999999881}
+      transformModified: 1
+    - name: challenger_RightFoot
+      position: {x: .482848793, y: 1.11127562e-07, z: -3.3451542e-07}
+      rotation: {x: .119774885, y: .0222556293, z: .555813313, w: -.822332263}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: challenger_RightToeBase
+      position: {x: .165620863, y: 4.9138194e-08, z: -3.50488065e-08}
+      rotation: {x: -.00727237761, y: -.016771853, z: -.175877571, w: .98424232}
+      scale: {x: .99999994, y: .999999881, z: .999999821}
+      transformModified: 1
+    - name: challenger_FrontKnife
+      position: {x: -.0900712013, y: .115004919, z: -.154300451}
+      rotation: {x: -.736860394, y: .132503957, z: -.570505023, w: .337643981}
+      scale: {x: .999999762, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: challenger_RearSword_Strap_01
+      position: {x: -.116224907, y: -.0341688804, z: .155028522}
+      rotation: {x: .888705134, y: -.0727360025, z: .00717651844, w: .452616006}
+      scale: {x: 1.00000048, y: 1, z: .999999762}
+      transformModified: 1
+    - name: challenger_RearSword_Strap_02
+      position: {x: .0343459733, y: .0137707647, z: .0319189355}
+      rotation: {x: .332090557, y: -.262820721, z: .760610044, w: .492050439}
+      scale: {x: .999998808, y: .999999523, z: 1.00000048}
+      transformModified: 1
+    - name: challenger_RearSword_Strap_03
+      position: {x: .051052656, y: .0261534583, z: .0142729478}
+      rotation: {x: .0499385186, y: -.145360991, z: .169886291, w: .973403871}
+      scale: {x: 1, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: challenger_RearSword_Strap_04
+      position: {x: .0184899867, y: 6.2771287e-05, z: -.00050628325}
+      rotation: {x: -.0018648468, y: .0194589868, z: -.014354323, w: .999705911}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: challenger_BeltBuckle
+      position: {x: -.0714718252, y: .190206662, z: .00122282887}
+      rotation: {x: .707106769, y: -.707106769, z: -3.81842291e-08, w: -4.37721646e-08}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: challenger_Belt
+      position: {x: .00372332009, y: -.0261987876, z: -.0593341999}
+      rotation: {x: -.148179382, y: -.0905665979, z: .65472585, w: .735645771}
+      scale: {x: .999999881, y: .999999642, z: 1.00000012}
+      transformModified: 1
+    - name: challenger_sword
+      position: {x: .458218485, y: 1.39055085, z: .344774306}
+      rotation: {x: .447489023, y: -.584136724, z: .300853401, w: .60665071}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
