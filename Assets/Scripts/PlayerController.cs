@@ -1,29 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
     Rigidbody rigidbody;
     Animator anim;
-
+    
     [SerializeField] private float speed = 4;
     [SerializeField] private float turnSpeed = 5;
+    [SerializeField] float horizontal;
+    [SerializeField] float vertical;
+    [SerializeField] float lerpRate = 5;
+    [SerializeField] float attackTimer = 1;
+    [SerializeField] bool blockedAttack;
 
     [SerializeField] PhysicMaterial zfriction; // zero friction
     [SerializeField] PhysicMaterial mfriction; // maximum friction
     [SerializeField] CameraHandler cameraHandler;
-
-
+    public LayerMask layerMask;
     Vector3 directionPos;
     Vector3 lookPos;
 
     Transform cam;
     
     CapsuleCollider capCol;
-
-    [SerializeField] float horizontal;
-    [SerializeField] float vertical;
 
     //Attack Variables
     float targetValue;
@@ -33,16 +35,9 @@ public class PlayerController : MonoBehaviour
     float aTimer;
     float decTimer;
 
-    [SerializeField] float lerpRate = 5;
-    [SerializeField] float attackTimer = 1;
-
-
     // Block Variables
     bool blocking;
     float bTimer;
-
-
-    [SerializeField] bool blockedAttack;
 
     // Mouse Variables
     float MouseX;
@@ -56,9 +51,10 @@ public class PlayerController : MonoBehaviour
     {
         if (cameraHandler)
             cameraHandler.Init(transform);
-        rigidbody = GetComponent<Rigidbody>();
 
         cam = Camera.main.transform;
+
+        rigidbody = GetComponent<Rigidbody>();
         capCol = GetComponent<CapsuleCollider>();
         SetupAnimator();
         
@@ -74,7 +70,7 @@ public class PlayerController : MonoBehaviour
         //ControlAttackAnimations();
         //ControlBlockAnimations();
     }
-
+    public bool onGround;
     private void FixedUpdate()
     {
         if(cameraHandler)
@@ -83,17 +79,113 @@ public class PlayerController : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
-        rigidbody.AddForce(((transform.right * horizontal) + (transform.forward * vertical)) * speed / Time.deltaTime);
+        Vector3 ver = cam.forward * vertical;
+        Vector3 hor = cam.right * horizontal;
+
+        ver.y = 0;
+        hor.y = 0;
+
+        onGround = IsOnGround();
+
+        HandleMovement(hor, ver, onGround);
+        HandleRotation(hor, ver, onGround);
+
+        anim.SetFloat("Forward", vertical, 0.1f, Time.deltaTime);
+        anim.SetFloat("Sideways", horizontal, 0.1f, Time.deltaTime);
+
+        return;
+
+
+        rigidbody.AddForce(((cam.right * horizontal) + (cam.forward * vertical)) * speed / Time.deltaTime);
 
         directionPos = transform.position + cam.forward * 100;
 
         Vector3 dir = directionPos - transform.position;
         dir.y = 0;
 
-        rigidbody.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), turnSpeed * Time.deltaTime);
+        Quaternion lookdir = Quaternion.LookRotation(dir);
 
-        anim.SetFloat("Forward", vertical, 0.1f, Time.deltaTime);
-        anim.SetFloat("Sideways", horizontal, 0.1f, Time.deltaTime);
+        rigidbody.rotation = Quaternion.Slerp(transform.rotation, lookdir , turnSpeed * Time.deltaTime);
+
+        Debug.Log(lookdir + "  " + transform.rotation);
+        
+    }
+
+    bool IsOnGround()
+    {
+        return true;
+        Vector3 origin = transform.position + new Vector3(0, 0.5f, 0);
+        float dis = 10f;
+        RaycastHit hit;
+        //Debug.DrawLine(origin, -Vector3.up, Color.red, dis);
+        Debug.DrawRay(origin, -Vector3.up, Color.red, dis);
+        if (Physics.Raycast(origin, -Vector3.up, out hit, dis, layerMask))
+        {
+            return true;
+        }
+        return false;
+    }
+
+    private void HandleMovement(Vector3 hor, Vector3 ver, bool onGround)
+    {
+        if (onGround)
+        {
+            //Debug.Log((ver + hor).normalized);
+            Debug.Log(Speed());
+
+            rigidbody.AddForce((ver + hor) * Speed() / Time.deltaTime); ;
+        }
+    }
+
+    Vector3 storeDirection;
+    public Vector3 dir;
+
+    private void HandleRotation(Vector3 hor, Vector3 ver, bool onGround)
+    {
+        storeDirection = transform.position + hor + ver;
+
+        dir = storeDirection - transform.position;
+        dir.y = 0;
+
+        if (horizontal != 0 || vertical != 0)
+        {
+            float angle = Vector3.Angle(transform.forward, dir);
+
+            if (angle != 0)
+            {
+                float newAngle = Quaternion.Angle(transform.rotation, Quaternion.LookRotation(dir));
+                if (newAngle != 0)
+                {
+                    rigidbody.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), turnSpeed * Time.deltaTime);
+                }
+            }
+        }
+    }
+
+    private float Speed()
+    {
+        float retVal = 0;
+
+        //if (statesManager.isAiming)
+        //{
+        //    retVal = aimSpeed;
+        //}
+        //else
+        //{
+        //    if (statesManager.isWalking || statesManager.isReloading)
+        //    {
+        //        retVal = walkSpeed;
+        //    }
+        //    else
+        //    {
+        //        retVal = runSpeed;
+        //    }
+        //}
+
+        //retVal *= speedMultiplier;
+        retVal = speed;
+
+        return retVal;
     }
 
     void HandleFriction()

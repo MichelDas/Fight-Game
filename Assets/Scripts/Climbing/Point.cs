@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Climbing
 {
-    [System.Serializable]
+    //[System.Serializable]
     public class Point : MonoBehaviour
     {
         public List<Neighbour> neighbours = new List<Neighbour>();

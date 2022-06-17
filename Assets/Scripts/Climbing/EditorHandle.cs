@@ -10,152 +10,152 @@ namespace Climbing
     [CustomEditor(typeof(DrawWireCube))]
     public class DrawWireCubeEditor : Editor{
 
-        private void OnSceneGUI()
-        {
-            DrawWireCube t = target as DrawWireCube;
+    //    private void OnSceneGUI()
+    //    {
+    //        DrawWireCube t = target as DrawWireCube;
 
-            if(t.ikPos.Count == 0)
-            {
-                t.ikPos = t.transform.GetComponent<Point>().iks;
-            }
+    //        if(t.ikPos.Count == 0)
+    //        {
+    //            t.ikPos = t.transform.GetComponent<Point>().iks;
+    //        }
 
-            for(int i=0; i<t.ikPos.Count; i++)
-            {
-                if(t.ikPos[i].target != null)
-                {
-                    Color targetColor = Color.red;
+    //        for(int i=0; i<t.ikPos.Count; i++)
+    //        {
+    //            if(t.ikPos[i].target != null)
+    //            {
+    //                Color targetColor = Color.red;
 
-                    switch (t.ikPos[i].ik)
-                    {
-                        case AvatarIKGoal.LeftFoot:
-                            targetColor = Color.magenta;
-                            break;
-                        case AvatarIKGoal.LeftHand:
-                            targetColor = Color.cyan;
-                            break;
-                        case AvatarIKGoal.RightFoot:
-                            targetColor = Color.green;
-                            break;
-                        case AvatarIKGoal.RightHand:
-                            targetColor = Color.yellow;
-                            break;
+    //                switch (t.ikPos[i].ik)
+    //                {
+    //                    case AvatarIKGoal.LeftFoot:
+    //                        targetColor = Color.magenta;
+    //                        break;
+    //                    case AvatarIKGoal.LeftHand:
+    //                        targetColor = Color.cyan;
+    //                        break;
+    //                    case AvatarIKGoal.RightFoot:
+    //                        targetColor = Color.green;
+    //                        break;
+    //                    case AvatarIKGoal.RightHand:
+    //                        targetColor = Color.yellow;
+    //                        break;
 
-                    }
+    //                }
 
-                    Handles.color = targetColor;
+    //                Handles.color = targetColor;
 
-                    Handles.CubeHandleCap(0, t.ikPos[i].target.position, t.ikPos[i].target.rotation, 0.05f, new EventType());
+    //                Handles.CubeHandleCap(0, t.ikPos[i].target.position, t.ikPos[i].target.rotation, 0.05f, new EventType());
 
-                    if(t.ikPos[i].hint != null)
-                    {
-                        Handles.CubeHandleCap(0, t.ikPos[i].hint.position, t.ikPos[i].hint.rotation, 0.05f, new EventType());
-                    }
+    //                if(t.ikPos[i].hint != null)
+    //                {
+    //                    Handles.CubeHandleCap(0, t.ikPos[i].hint.position, t.ikPos[i].hint.rotation, 0.05f, new EventType());
+    //                }
 
-                }
-                else
-                {
-                    t.ikPos = t.transform.GetComponent<Point>().iks;
-                }
-            }
-        }
-    }
+    //            }
+    //            else
+    //            {
+    //                t.ikPos = t.transform.GetComponent<Point>().iks;
+    //            }
+    //        }
+    //    }
+    //}
 
-    [CustomEditor(typeof(DrawLine))]
-    public class EditorVis : Editor{
+    //[CustomEditor(typeof(DrawLine))]
+    //public class EditorVis : Editor{
 
-        private void OnSceneGUI()
-        {
-            DrawLineIndividual t = target as DrawLineIndividual;
+    //    private void OnSceneGUI()
+    //    {
+    //        DrawLineIndividual t = target as DrawLineIndividual;
 
-            if (t == null)
-                return;
+    //        if (t == null)
+    //            return;
 
-            if (t.ConnectedPoints.Count == 0)
-            { 
-                t.ConnectedPoints.AddRange(t.transform.GetComponent<Point>().neighbours);
-            }
+    //        if (t.ConnectedPoints.Count == 0)
+    //        { 
+    //            t.ConnectedPoints.AddRange(t.transform.GetComponent<Point>().neighbours);
+    //        }
 
-            for (int i = 0; i < t.ConnectedPoints.Count; i++)
-            {
-                if (t.ConnectedPoints[i].target == null)
-                    continue;
+    //        for (int i = 0; i < t.ConnectedPoints.Count; i++)
+    //        {
+    //            if (t.ConnectedPoints[i].target == null)
+    //                continue;
 
-                Vector3 pos1 = t.transform.position;
-                Vector3 pos2 = t.ConnectedPoints[i].target.transform.position;
+    //            Vector3 pos1 = t.transform.position;
+    //            Vector3 pos2 = t.ConnectedPoints[i].target.transform.position;
 
 
-                switch (t.ConnectedPoints[i].cType)
-                {
-                    case ConnectionType.direct:
-                        Handles.color = Color.red;
-                        break;
-                    case ConnectionType.inBetween:
-                        Handles.color = Color.green;
-                        break;
-                    //case ConnectionType.fall:
-                    //    Handles.color = Color.red;
-                    //    break;
-                    //case ConnectionType.dismount:
-                    //    Handles.color = Color.red;
-                    //    break;
+    //            switch (t.ConnectedPoints[i].cType)
+    //            {
+    //                case ConnectionType.direct:
+    //                    Handles.color = Color.red;
+    //                    break;
+    //                case ConnectionType.inBetween:
+    //                    Handles.color = Color.green;
+    //                    break;
+    //                //case ConnectionType.fall:
+    //                //    Handles.color = Color.red;
+    //                //    break;
+    //                //case ConnectionType.dismount:
+    //                //    Handles.color = Color.red;
+    //                //    break;
 
-                }
+    //            }
 
-                Handles.DrawLine(pos1, pos2);
-                t.refresh = false;
+    //            Handles.DrawLine(pos1, pos2);
+    //            t.refresh = false;
 
                   
-            }
-        }
-    }
+    //        }
+    //    }
+    //}
 
-    [CustomEditor(typeof(DrawLineIndividual))]
-    public class DrawLineVis : Editor {
+    //[CustomEditor(typeof(DrawLineIndividual))]
+    //public class DrawLineVis : Editor {
 
-        private void OnSceneGUI()
-        {
-            DrawLine t = target as DrawLine;
+    //    private void OnSceneGUI()
+    //    {
+    //        DrawLine t = target as DrawLine;
 
-            if (t == null)
-                return;
+    //        if (t == null)
+    //            return;
 
-            if (t.ConnectedPoints.Count == 0)
-            {
-                t.ConnectedPoints.AddRange(t.transform.GetComponent<HandlePointConnections>().GetAllConnections());
-            }
+    //        if (t.ConnectedPoints.Count == 0)
+    //        {
+    //            t.ConnectedPoints.AddRange(t.transform.GetComponent<HandlePointConnections>().GetAllConnections());
+    //        }
 
-            for (int i = 0; i < t.ConnectedPoints.Count; i++)
-            {
-                if (t.ConnectedPoints[i].target == null)
-                    continue;
+    //        for (int i = 0; i < t.ConnectedPoints.Count; i++)
+    //        {
+    //            if (t.ConnectedPoints[i].target == null)
+    //                continue;
 
-                Vector3 pos1 = t.transform.position; // eikhane target 1 nisilo
-                Vector3 pos2 = t.ConnectedPoints[i].target.transform.position; // eikhane target 2 nisilo
-
-
-                switch (t.ConnectedPoints[i].cType)
-                {
-                    case ConnectionType.direct:
-                        Handles.color = Color.red;
-                        break;
-                    case ConnectionType.inBetween:
-                        Handles.color = Color.green;
-                        break;
-                        //case ConnectionType.fall:
-                        //    Handles.color = Color.red;
-                        //    break;
-                        //case ConnectionType.dismount:
-                        //    Handles.color = Color.red;
-                        //    break;
-
-                }
-
-                Handles.DrawLine(pos1, pos2);
-                t.refresh = false;
+    //            Vector3 pos1 = t.transform.position; // eikhane target 1 nisilo
+    //            Vector3 pos2 = t.ConnectedPoints[i].target.transform.position; // eikhane target 2 nisilo
 
 
-            }
-        }
+    //            switch (t.ConnectedPoints[i].cType)
+    //            {
+    //                case ConnectionType.direct:
+    //                    Handles.color = Color.red;
+    //                    break;
+    //                case ConnectionType.inBetween:
+    //                    Handles.color = Color.green;
+    //                    break;
+    //                    //case ConnectionType.fall:
+    //                    //    Handles.color = Color.red;
+    //                    //    break;
+    //                    //case ConnectionType.dismount:
+    //                    //    Handles.color = Color.red;
+    //                    //    break;
+
+    //            }
+
+    //            Handles.DrawLine(pos1, pos2);
+    //            t.refresh = false;
+
+
+    //        }
+    //    }
     }
 
 }
